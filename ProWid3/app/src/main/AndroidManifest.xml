@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prowid.owner.prowid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ProWid"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Visitor" />
+        <activity android:name=".Student" />
+        <activity android:name=".Staff" />
+        <activity android:name=".Department" />
+        <activity android:name=".Cse" />
+        <activity android:name=".Staffview" />
+        <activity android:name=".Location" />
+        <activity android:name=".Details" />
+        <activity android:name=".Hod" />
+        <activity android:name=".Comingsoon" />
+        <activity android:name=".Option" />
+        <activity android:name=".Csestaffdetails" />
+        <activity android:name=".Dorai" />
+        <activity android:name=".Notificationsend" />
+        <activity
+            android:name=".sree"
+            android:label="@string/title_activity_sree"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Sree" />
+        <activity android:name=".Basil" />
+        <activity android:name=".Gripsy" />
+        <activity android:name=".Divya" />
+        <activity android:name=".Neetha" />
+        <activity android:name=".Vidya"></activity>
+    </application>
+
+</manifest>
